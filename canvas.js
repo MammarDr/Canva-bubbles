@@ -25,7 +25,7 @@ window.addEventListener("mousemove", (e) => {
     mouse.y = e.y;
 })
 
-window.addEventListener("ontouchmove", (e) => {
+window.addEventListener("touchmove", (e) => {
     mouse.x = e.x;
     mouse.y = e.y;
 })
