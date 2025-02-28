@@ -25,6 +25,11 @@ window.addEventListener("mousemove", (e) => {
     mouse.y = e.y;
 })
 
+window.addEventListener("ontouchmove", (e) => {
+    mouse.x = e.x;
+    mouse.y = e.y;
+})
+
 function circle(x, y, dx, dy, radius) {
     this.x = x;
     this.y = y;
